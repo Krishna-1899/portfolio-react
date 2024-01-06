@@ -12,13 +12,12 @@ import About from '../Components/About.js';
 import Resume from "../Components/Resume";
 import Contact from "../Components/Contact";
 import Work from "../Components/Work";  
-import Blog from "./Blog.js";
 import '../App.css';
 
 function Menubar ({borderColor,  contentTheme, btnTheme , navboxBtn, designBg, appDevelopemntBg, photographyOneBg , photographyTwoBg , managementBg, webBg,textTheme,sidebarTextTheme,whiteBg,resumeText,resumeWorking}) {
     return(
         <>
-        <header className={`lg:w-[560px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] ${contentTheme}`}>
+        <header className={`lg:w-[460px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] ${contentTheme}`}>
               <nav className="hidden lg:block">
                 <ul className="flex">
                   <li>
@@ -48,7 +47,7 @@ function Menubar ({borderColor,  contentTheme, btnTheme , navboxBtn, designBg, a
                       Works
                     </NavLink>
                   </li>
-                  <li>
+                  {/* <li>
                     <NavLink style={({ isActive }) => 
                       (isActive ? {backgroundImage: 'linear-gradient(to right, #dd2476, #fa5252)', color:'white'} : {backgroundolor: 'rgb(243 246 246)'})} to="blog" className={`menu-item ${btnTheme} ${navboxBtn}`}>
                       <span className="text-xl mb-1">
@@ -56,7 +55,7 @@ function Menubar ({borderColor,  contentTheme, btnTheme , navboxBtn, designBg, a
                       </span>
                       Blogs
                     </NavLink>
-                  </li>
+                  </li> */}
                   <li>
                     <NavLink style={({ isActive }) => 
                       (isActive ? {backgroundImage: 'linear-gradient(to right, #dd2476, #fa5252)', color:'white'} : {backgroundolor: 'rgb(243 246 246)'})} to="contact" className={`menu-item ${btnTheme} ${navboxBtn}`}>
@@ -76,7 +75,6 @@ function Menubar ({borderColor,  contentTheme, btnTheme , navboxBtn, designBg, a
                 photographyOneBg={photographyOneBg} photographyTwoBg={photographyTwoBg} managementBg={managementBg} webBg={webBg} sidebarTextTheme={sidebarTextTheme} textTheme={textTheme} btnTheme={btnTheme} whiteBg={whiteBg}/>} />
                 <Route path="resume"  element={<Resume contentTheme={contentTheme} borderColor={borderColor} designBg={designBg} sidebarTextTheme={sidebarTextTheme} textTheme={textTheme} photographyTwoBg={photographyTwoBg} webBg={webBg} resumeText={resumeText} resumeWorking={resumeWorking}/>} />
                 <Route path="work" element={<Work />} />
-                <Route path="blog"  element={<Blog />} />
                 <Route path="contact"  element={<Contact contentTheme={contentTheme}/>} />
               </Routes>
             </div>

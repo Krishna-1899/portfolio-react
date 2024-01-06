@@ -21,6 +21,9 @@ const dataSchema = new mongoose.Schema({
 		required: true,
 		maxLength: 20,
 	},
+	preview:{
+		type:String
+	},
 	image: {
 		type: String,
 		required: true,

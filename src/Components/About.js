@@ -23,7 +23,7 @@ function About({
   return (
     <div className={`lg:rounded-2xl ${contentTheme}`}>
       <div className="pt-12 md:py-12 px-2  sm:px-5 md:px-10 lg:px-14">
-        <h2 className={`after-effect after:left-52 ${textTheme}`}>About Me</h2>
+        <h2 className={`after-effect after:top-[50%] after:left-52 ${textTheme}`}>About Me</h2>
         <div className="lg:hidden">
           <Sidebar contentTheme={contentTheme}
               btnTheme={btnTheme}

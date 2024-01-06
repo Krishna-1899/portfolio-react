@@ -175,7 +175,6 @@
 }
 .after-effect::after{
   position:absolute;
-  top: 50%;
   height: 0.125rem;
   --tw-translate-y: -50%;
   --tw-translate-x: 0;
@@ -510,4 +509,33 @@ background-color:rgb(254 250 240 );
 }
 .resumeWorkingDark{
   background-color: #0d0d0d;
+}
+
+.three-col .isotop-item,
+.three-col .grid-sizer {
+	width: 33.33%;
+	padding: 0 10px;
+}
+.two-col .isotop-item,
+.two-col .grid-sizer {
+	width: 50%;
+	padding: 0 10px;
+}
+@media (max-width: 1199px) {
+	.three-col .isotop-item,
+	.three-col .grid-sizer {
+		width: 50%;
+	}
+}
+@media (max-width: 576px) {
+	.three-col .isotop-item,
+	.three-col .grid-sizer,
+	.two-col .isotop-item,
+	.two-col .grid-size {
+		width: 100%;
+	}
+}
+.three-col .isotop-item > div,
+.two-col .isotop-item > div {
+	margin-bottom: 20px;
 }
