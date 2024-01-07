@@ -17,21 +17,21 @@ function Resume({contentTheme,borderColor,designBg,textTheme,sidebarTextTheme,ph
                                 </div>
                                 <div className={`${photographyTwoBg} border-[#212425] py-4 pl-5 pr-3 space-y-2 mb-6
                                 rounded-lg`}>
-                                    <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2021-2023</span>
-                                    <h3 className={`text-xl ${textTheme} `}>Ph.D in Horriblensess</h3>
-                                    <p className={`${resumeText}`}>ABC University, Los Angeles, CA</p>
-                                </div>
-                                <div className={`${photographyTwoBg} border-[#212425] py-4 pl-5 pr-3 space-y-2 mb-6
-                                rounded-lg`}>
-                                    <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2019 - Present</span>
-                                    <h3 className={`text-xl ${textTheme} `}>Sr. Software Tester</h3>
-                                    <p className={`${resumeText}`}>Google Inc.</p>
+                                    <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2019</span>
+                                    <h3 className={`text-xl ${textTheme} `}>Class 10</h3>
+                                    <p className={`${resumeText}`}>KV3 AF-2 Jamnagar</p>
                                 </div>
                                 <div className={`${photographyTwoBg} border-[#212425] py-4 pl-5 pr-3 space-y-2 mb-6
                                 rounded-lg`}>
                                     <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2021</span>
-                                    <h3 className={`text-xl ${textTheme} `}>Best Developer</h3>
-                                    <p className={`${resumeText}`}>University of Melbourne, NA</p>
+                                    <h3 className={`text-xl ${textTheme} `}>Class 12</h3>
+                                    <p className={`${resumeText}`}>KV3 AF-2 Jamnagar</p>
+                                </div>
+                                <div className={`${photographyTwoBg} border-[#212425] py-4 pl-5 pr-3 space-y-2 mb-6
+                                rounded-lg`}>
+                                    <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2021-present</span>
+                                    <h3 className={`text-xl ${textTheme} `}>Pursuing BE in computer Science</h3>
+                                    <p className={`${resumeText}`}>LDRP Institute of Technology and Research,Gandhinagar</p>
                                 </div>
                             </div>
                             <div>
@@ -43,21 +43,21 @@ function Resume({contentTheme,borderColor,designBg,textTheme,sidebarTextTheme,ph
                                 </div>
                                 <div className={`${webBg} border-[#212425] py-4 pl-5 pr-3 space-y-2 mb-6
                                 rounded-lg`}>
-                                    <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2017 - 2021</span>
-                                    <h3 className={`text-xl ${textTheme} `}>Computer Science</h3>
-                                    <p className={`${resumeText}`}>Imperial Techincal Insitute</p>
+                                    <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>Present</span>
+                                    <h3 className={`text-3xl ${textTheme} `}>Fresher in </h3>
+                                    {/* <p className={`${resumeText}`}></p> */}
                                 </div>
                                 <div className={`${webBg} border-[#212425] py-4 pl-5 pr-3 space-y-2 mb-6
                                 rounded-lg`}>
-                                    <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2015 - 2017</span>
-                                    <h3 className={`text-xl ${textTheme} `}>Cr.Web Developer</h3>
-                                    <p className={`${resumeText}`}>ib-themes ltd.</p>
+                                    {/* <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2015 - 2017</span> */}
+                                    <h3 className={`text-xl ${textTheme} `}>Frontend Using React and Redux</h3>
+                                    {/* <p className={`${resumeText}`}>ib-themes ltd.</p> */}
                                 </div>
                                 <div className={`${webBg} border-[#212425] py-4 pl-5 pr-3 space-y-2 mb-6
                                 rounded-lg`}>
-                                    <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2008</span>
-                                    <h3 className={`text-xl ${textTheme} `}>Best Writter</h3>
-                                    <p className={`${resumeText}`}>Online Typodev Solution Ltd.</p>
+                                    {/* <span className={`text-tiny text-gray-lite ${sidebarTextTheme}`}>2008</span> */}
+                                    <h3 className={`text-xl ${textTheme} `}>Backend Using (Node js)</h3>
+                                    {/* <p className={`${resumeText}`}>Online Typodev Solution Ltd.</p> */}
                                 </div>
                             </div>
                     </div>
@@ -67,19 +67,19 @@ function Resume({contentTheme,borderColor,designBg,textTheme,sidebarTextTheme,ph
             md:px-10 lg:px-20`}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="col-span-1">
-                        <h4 className={`text-3xl font-medium mb-6 ${textTheme}`}>Working Skills</h4>
+                        <h4 className={`text-3xl font-medium mb-6 ${textTheme}`}>Frontend Skills</h4>
                         <div className="mb-5">
                             <div className="flex justify-between mb-1">
-                                <span className="font-semibold text-[#526377]">Web Design</span>
-                                <span className="font-semibold text-[#526377]">65%</span>
+                                <span className="font-semibold text-[#526377]">HTMl</span>
+                                <span className="font-semibold text-[#526377]">95%</span>
                             </div>
                             <div className="w-full bg-[#edf2f2] rounded-full h-1">
-                                <div className="bg-[#FF6464] h-1 rounded-full" style={{width:'65%'}}></div>
+                                <div className="bg-[#FF6464] h-1 rounded-full" style={{width:'95%'}}></div>
                             </div>
                         </div>
                         <div className="mb-5">
                             <div className="flex justify-between mb-1">
-                                <span className="font-semibold text-[#526377]">Mobile App</span>
+                                <span className="font-semibold text-[#526377]">CSS</span>
                                 <span className="font-semibold text-[#526377]">85%</span>
                             </div>
                             <div className="w-full bg-[#edf2f2] rounded-full h-1">
@@ -88,7 +88,7 @@ function Resume({contentTheme,borderColor,designBg,textTheme,sidebarTextTheme,ph
                         </div>
                         <div className="mb-5">
                             <div className="flex justify-between mb-1">
-                                <span className="font-semibold text-[#526377]">Illustrator</span>
+                                <span className="font-semibold text-[#526377]">JavaScript</span>
                                 <span className="font-semibold text-[#526377]">75%</span>
                             </div>
                             <div className="w-full bg-[#edf2f2] rounded-full h-1">
@@ -97,17 +97,17 @@ function Resume({contentTheme,borderColor,designBg,textTheme,sidebarTextTheme,ph
                         </div>
                         <div className="mb-5">
                             <div className="flex justify-between mb-1">
-                                <span className="font-semibold text-[#526377]">Photoshope</span>
-                                <span className="font-semibold text-[#526377]">90%</span>
+                                <span className="font-semibold text-[#526377]">React</span>
+                                <span className="font-semibold text-[#526377]">75%</span>
                             </div>
                             <div className="w-full bg-[#edf2f2] rounded-full h-1">
-                                <div className="bg-[#ca56f2] h-1 rounded-full" style={{width:'90%'}}></div>
+                                <div className="bg-[#ca56f2] h-1 rounded-full" style={{width:'75%'}}></div>
                             </div>
                         </div>
                     </div>
                     <div className="col-span-1">
-                    <h4 className={`text-3xl font-medium mb-8 ${textTheme}`}>Knowledges</h4>
-                    <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
+                    <h4 className={`text-3xl font-medium mb-6 ${textTheme}`}>Backend Skills</h4>
+                    {/* <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
                         <button className={`resume-btn ${contentTheme} ${sidebarTextTheme}`}>Digital Design</button>
                         <button className={`resume-btn ${contentTheme} ${sidebarTextTheme}`}>Marketing</button>
                         <button className={`resume-btn ${contentTheme} ${sidebarTextTheme}`}>Social Media</button>
@@ -115,7 +115,44 @@ function Resume({contentTheme,borderColor,designBg,textTheme,sidebarTextTheme,ph
                         <button className={`resume-btn ${contentTheme} ${sidebarTextTheme}`}>Flexibilty</button>
                         <button className={`resume-btn ${contentTheme} ${sidebarTextTheme}`}>Print</button>
                         <button className={`resume-btn ${contentTheme} ${sidebarTextTheme}`}>Communication</button>
-                    </div>
+                    </div> */}
+                    <div className="mb-5">
+                            <div className="flex justify-between mb-1">
+                                <span className="font-semibold text-[#526377]">Node Js</span>
+                                <span className="font-semibold text-[#526377]">70%</span>
+                            </div>
+                            <div className="w-full bg-[#edf2f2] rounded-full h-1">
+                                <div className="bg-[#FF6464] h-1 rounded-full" style={{width:'70%'}}></div>
+                            </div>
+                        </div>
+                        <div className="mb-5">
+                            <div className="flex justify-between mb-1">
+                                <span className="font-semibold text-[#526377]">Mongoose</span>
+                                <span className="font-semibold text-[#526377]">70%</span>
+                            </div>
+                            <div className="w-full bg-[#edf2f2] rounded-full h-1">
+                                <div className="bg-[#9272d4] h-1 rounded-full" style={{width:'70%'}}></div>
+                            </div>
+                        </div>
+                        <div className="mb-5">
+                            <div className="flex justify-between mb-1">
+                                <span className="font-semibold text-[#526377]">Sequelize</span>
+                                <span className="font-semibold text-[#526377]">70%</span>
+                            </div>
+                            <div className="w-full bg-[#edf2f2] rounded-full h-1">
+                                <div className="bg-[#5185d4] h-1 rounded-full" style={{width:'70%'}}></div>
+                            </div>
+                        </div>
+                        {/* <h4 className={`text-3xl font-medium mb-6 ${textTheme}`}>Database</h4> */}
+                        <div className="mb-5">
+                            <div className="flex justify-between mb-1">
+                                <span className="font-semibold text-[#526377]">MongoDb , SQl</span>
+                                <span className="font-semibold text-[#526377]">80%</span>
+                            </div>
+                            <div className="w-full bg-[#edf2f2] rounded-full h-1">
+                                <div className="bg-[#ca56f2] h-1 rounded-full" style={{width:'80%'}}></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

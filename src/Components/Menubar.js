@@ -2,7 +2,6 @@ import { NavLink } from "react-router-dom";
 import { FaUser } from "react-icons/fa";
 import { HiOutlineDocumentText } from "react-icons/hi";
 import { IoBriefcase } from "react-icons/io5";
-import { FaBlogger } from "react-icons/fa";
 import { RiContactsBookUploadFill } from "react-icons/ri";
 import {
     Routes,
@@ -47,15 +46,6 @@ function Menubar ({borderColor,  contentTheme, btnTheme , navboxBtn, designBg, a
                       Works
                     </NavLink>
                   </li>
-                  {/* <li>
-                    <NavLink style={({ isActive }) => 
-                      (isActive ? {backgroundImage: 'linear-gradient(to right, #dd2476, #fa5252)', color:'white'} : {backgroundolor: 'rgb(243 246 246)'})} to="blog" className={`menu-item ${btnTheme} ${navboxBtn}`}>
-                      <span className="text-xl mb-1">
-                        <FaBlogger />
-                      </span>
-                      Blogs
-                    </NavLink>
-                  </li> */}
                   <li>
                     <NavLink style={({ isActive }) => 
                       (isActive ? {backgroundImage: 'linear-gradient(to right, #dd2476, #fa5252)', color:'white'} : {backgroundolor: 'rgb(243 246 246)'})} to="contact" className={`menu-item ${btnTheme} ${navboxBtn}`}>
@@ -74,8 +64,8 @@ function Menubar ({borderColor,  contentTheme, btnTheme , navboxBtn, designBg, a
                 <Route path="/" element={<About contentTheme={contentTheme} borderColor={borderColor} designBg={designBg} appDevelopemntBg={appDevelopemntBg}
                 photographyOneBg={photographyOneBg} photographyTwoBg={photographyTwoBg} managementBg={managementBg} webBg={webBg} sidebarTextTheme={sidebarTextTheme} textTheme={textTheme} btnTheme={btnTheme} whiteBg={whiteBg}/>} />
                 <Route path="resume"  element={<Resume contentTheme={contentTheme} borderColor={borderColor} designBg={designBg} sidebarTextTheme={sidebarTextTheme} textTheme={textTheme} photographyTwoBg={photographyTwoBg} webBg={webBg} resumeText={resumeText} resumeWorking={resumeWorking}/>} />
-                <Route path="work" element={<Work />} />
-                <Route path="contact"  element={<Contact contentTheme={contentTheme}/>} />
+                <Route path="work" element={<Work contentTheme={contentTheme} borderColor={borderColor} designBg={designBg} sidebarTextTheme={sidebarTextTheme} textTheme={textTheme} webBg={webBg} resumeText={resumeText} resumeWorking={resumeWorking}/>} />
+                <Route path="contact"  element={<Contact contentTheme={contentTheme} textTheme={textTheme} btnTheme={btnTheme} sidebarTextTheme={sidebarTextTheme}/>} />
               </Routes>
             </div>
             </div>

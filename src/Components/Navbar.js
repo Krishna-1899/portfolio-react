@@ -1,5 +1,4 @@
 import React from "react";
-// import logo from "../Images/portfolio-navbar-logo.png";
 import logo from "../Images/logoport.png";
 import { IoIosMoon } from "react-icons/io";
 import { FaSun } from "react-icons/fa";

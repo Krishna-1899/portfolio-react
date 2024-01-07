@@ -1,8 +1,5 @@
 import "./App.css";
-// import logo from "./Images/portfolio-navbar-logo.png";
 import { useState, useEffect } from "react";
-// import { IoIosMoon } from "react-icons/io";
-// import { FaSun } from "react-icons/fa";
 import Sidebar from "./Components/Sidebar";
 import Menubar from "./Components/Menubar";
 import Navbar from "./Components/Navbar";

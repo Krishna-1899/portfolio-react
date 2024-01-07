@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Spinner from "./Spinner";
 import Cards from "./Cards";
 import Footer from "./Footer";
-function Work() {
+function Work({contentTheme,textTheme,borderColor,designBg,sidebarTextTheme,resumeText,resumeWorking,webBg}) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -34,19 +34,17 @@ function Work() {
   if (loading) {
     return <Spinner />;
   }
-
   return (
-    <div className={`lg:rounded-2xl`}>
-      Work
-      <div className="container mb-8 px-4 sm:px-5 md:px-10 lg:px-[60px]">
-        <div className="py-12">
-          <h2 className="after-effect after:left-48 lg:mt-0">Portfolio</h2>
+    <div className={`lg:rounded-2xl ${contentTheme}` }>
+      <div className="container max-[992px]:max-w-[992px] sm:px-5 md:px-10 lg:px-14 mx-auto">
+        <div className="py-12 px-4 md:px-0">
+          <h2 className={`lg:mt-0 after-effect after:top-[50%] after:left-44 ${textTheme}`}>Portfolio</h2>
+          <div className="">
+            <Cards data={data} contentTheme={contentTheme} webBg={webBg} borderColor={borderColor} designBg={designBg} sidebarTextTheme={sidebarTextTheme} textTheme={textTheme} resumeText={resumeText} resumeWorking={resumeWorking} />
+          </div>
         </div>
-        <div className="min-h-[50vh] relative ml-[-10px] -mr-[10px]">
-          <Cards data={data} />
-        </div>
+        <Footer/>
       </div>
-      <Footer />
     </div>
   );
 }

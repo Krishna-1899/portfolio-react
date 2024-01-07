@@ -7,8 +7,6 @@ import { FaEnvelopeOpenText } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { SlCalender } from "react-icons/sl";
 import download from "../Images/portfolio-download-img.png";
-// import { useState , useEffect } from "react";
-// import '../Components/sidebar.css';
 function Sidebar ({whiteBg, borderColor, contentTheme, btnTheme,textTheme,sidebarTextTheme}) {
     return (
         <div
@@ -31,17 +29,17 @@ function Sidebar ({whiteBg, borderColor, contentTheme, btnTheme,textTheme,sideba
             Web Developer
           </h3>
           <div className="flex justify-center space-x-3">
-            <a href="#" target="_blank">
+            <a href="/" target="_blank">
               <span className={`socialbtn ${btnTheme} text-[#1773EA]`}>
                 <RiFacebookFill />
               </span>
             </a>
-            <a href="#" target="_blank">
+            <a href="https://github.com/Krishna-1899" target="blank">
               <span className={`socialbtn ${btnTheme} text-pink`}>
               <FaGithub />
               </span>
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/in/krishna-gajara-5b9204238" target="blank">
               <span className={`socialbtn ${btnTheme} text-[#1773EA]`}>
                 <RiLinkedinFill />
               </span>
@@ -55,7 +53,7 @@ function Sidebar ({whiteBg, borderColor, contentTheme, btnTheme,textTheme,sideba
               </span>
               <div className="text-left ml-2.5">
                 <p className={`text-xs ${sidebarTextTheme}`}>Phone</p>
-                <p className={`${textTheme}`}>+ 123 456 7890</p>
+                <p className={`${textTheme}`}>+91 75XXXXXXXX</p>
               </div>
             </div>
             <div className={`flex border-b ${borderColor} py-2.5`}>
@@ -65,7 +63,7 @@ function Sidebar ({whiteBg, borderColor, contentTheme, btnTheme,textTheme,sideba
               </span>
               <div className="text-left ml-2.5">
                 <p className={`text-xs ${sidebarTextTheme}`}>Email</p>
-                <p className={`${textTheme}`}>example@gmail.com</p>
+                <p className={`${textTheme}`}>krishnagajara92@gmail.com</p>
               </div>
             </div>
             <div className={`flex border-b ${borderColor} py-2.5`}>
@@ -75,7 +73,7 @@ function Sidebar ({whiteBg, borderColor, contentTheme, btnTheme,textTheme,sideba
               </span>
               <div className="text-left ml-2.5">
                 <p className={`text-xs ${sidebarTextTheme}`}>Location</p>
-                <p className={`${textTheme}`}>Hong kong China</p>
+                <p className={`${textTheme}`}>Gandhinagar,Gujarat</p>
               </div>
             </div>
             <div className="flex py-2.5">
@@ -85,7 +83,7 @@ function Sidebar ({whiteBg, borderColor, contentTheme, btnTheme,textTheme,sideba
               </span>
               <div className="text-left ml-2.5">
                 <p className={`text-xs ${sidebarTextTheme}`}>Birthday</p>
-                <p className={`${textTheme}`}>May 27, 1990</p>
+                <p className={`${textTheme}`}>Jan 07, 2004</p>
               </div>
             </div>
           </div>
