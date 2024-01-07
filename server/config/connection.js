@@ -8,6 +8,7 @@ const dbConnect = () => {
 	mongoose.connect(process.env.DATABASE_URL, {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
+			connectTimeoutMS: 3000,
 		})
 		// If the connection is successful, log a success message
 		.then(() => console.log("DB CONNECTION SUCCESS"))
