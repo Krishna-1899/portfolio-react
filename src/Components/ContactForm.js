@@ -8,7 +8,7 @@ export default function ContactForm({textTheme,btnTheme,sidebarTextTheme}) {
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [submittedMessage, setSubmittedMessage] = useState("");
   const createResponse = async (data) => {
-    const work=await fetch(`${process.env.REACT_APP_BASE_URL}/submitResponse`,{
+    const work=await fetch(`${process.env.REACT_APP_BASE_URL}/api/v1/submitResponse`,{
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -10,7 +10,7 @@ function Work({contentTheme,textTheme,borderColor,designBg,sidebarTextTheme,resu
     try {
       setLoading(true);
       const response = await fetch(
-        `${process.env.REACT_APP_BASE_URL}/getAllWorks`,
+        `${process.env.REACT_APP_BASE_URL}/api/v1/getAllWorks`,
         {
           method: "GET",
           headers: {
