@@ -5,7 +5,7 @@ const connection = require("./config/connection");
 const userRoutes = require("./route/contact");
 var cors = require("cors");
 const PORT = process.env.PORT || 4000;
-const BASE_URL = process.env.BASE_URL || `http://localhost:${PORT}`;
+const BASE_URL = process.env.BASE_URL;
 
 // Middleware
 app.use(express.json());
